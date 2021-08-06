@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,600;1,400&display=swap");
+
+body {
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: hsl(120, 2%, 5%);
+}
+
+#navbar {
+  background: #e65400;
+  margin-top: 30px;
+  border-radius: 20px;
+  padding: 10px 15px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 70%;
+  box-shadow: 0 0 2rem rgba(0, 0, 0, 0.2);
+}
+.wrapper {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+#navbar li a {
+  font-size: 16px;
+  color: #faeed0;
+  text-decoration: none;
+  font-family: "Open Sans", sans-serif;
+  padding: 10px 0px;
+  margin-right: 50px;
+  transition: 0.5s ease;
+
+  font-weight: 600;
+  font-size: large;
+  cursor: pointer;
+  margin-left: -5px;
+}
+#navbar a:hover {
+  color: hsl(120, 2%, 5%);
+}
+
+#navbar li {
+  display: inline;
+  padding: 0 5px;
+}
+
+#navbar svg {
+  width: 48px;
+  height: 48px;
+  margin-right: auto;
+  margin-left: 50px;
+}
+
+.content h3 {
+  font-family: "Handlee", cursive;
+  color: #faeed0;
+  text-align: center;
+  font-size: 6em;
+  width: 100%;
+  margin-top: 40px;
+  margin-bottom: 100px;
+  transition: color 0s ease-in 200ms;
+}
+.content h3:hover {
+  color: #e65400;
+  transition: 0.5s ease-in-out;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #faeed0;
+  font-size: 20px;
+}
+
+.box {
+  margin-bottom: 20px;
+}
+
+.icon > a {
+  text-decoration: none;
+  color: #faeed0;
+  font-size: 20px;
+}
+
+.icon svg {
+  color: #faeed0;
+  height: 28px;
+  width: 28px;
+}
